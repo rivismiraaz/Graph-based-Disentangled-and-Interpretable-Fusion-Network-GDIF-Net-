@@ -1,0 +1,23 @@
+{
+    "grid": {
+        "dimensions": [50, 50, 10],
+        "spacing": [1, 1, 2]
+    },
+    "model": {
+        "num_modalities": 5,
+        "latent_dim": 16,
+        "gnn_layers": 3,
+        "gat_heads": 4
+    },
+    "visualization": {
+        "window_size": [1600, 900],
+        "control_panel_width": 450,
+        "background_color": "black",
+        "cmap": "coolwarm"
+    },
+    "training": {
+        "epochs": 20,
+        "batch_size": 2,
+        "learning_rate": 0.0005
+    }
+}
