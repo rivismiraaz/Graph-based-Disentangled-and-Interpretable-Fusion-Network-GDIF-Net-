@@ -1,0 +1,5 @@
+numpy
+pyvista
+dearpygui
+scipy
+tqdm
