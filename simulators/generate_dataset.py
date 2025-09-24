@@ -15,10 +15,10 @@ if not os.path.exists(OUTPUT_DIR):
 heuristic_weights = {
     'w_crowd': 0.4,
     'w_traffic': 0.3,
-    'w_interaction': 0.5, # 强调协同效应
-    'w_terrain': 0.2,
-    'w_wind': 0.3,
-    'w_comm': 0.3
+    'w_interaction': 0.8,  # 高权重，突出协同效应的重要性
+    'w_wind': 0.5,         # 让飞行条件对巡检优先级有显著影响
+    'w_comm': 0.4,
+    'w_terrain': 0.6       # 让复杂地形成为一个关键的风险放大因素
 }
 
 # --- 初始化 ---
